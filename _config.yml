@@ -1,6 +1,6 @@
 # Site settings
 title: James Sha
-email: jamessha78@gmail.com
+email: jamessha.personal@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     My personal site
 baseurl: "" # the subpath of your site, e.g. /blog/
