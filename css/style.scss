@@ -14,12 +14,17 @@ a:any-link {
 .main {
   width: 45%;
   margin-left: 27.5%;
+
+  @media only screen and (max-width: 1000px) {
+    width: 90%;
+    margin-left: 5%;
+  }
 }
 
 .pic {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   padding-top: 50px;
 }
 
@@ -49,7 +54,7 @@ img {
   h1 {
     font-size: 25px;
   }
-  width: 150px;
+  min-width: 125px;
   margin-right: 10px;
 }
 
