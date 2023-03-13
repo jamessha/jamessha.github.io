@@ -89,8 +89,10 @@ img {
 }
 
 .previously {
-  display: flex;
-  align-items: left;
+  @media only screen and (min-width: 1000px) {
+    display: flex;
+    align-items: left;
+  }
 
   .left {
     h1 {
@@ -100,8 +102,10 @@ img {
 }
 
 .links {
-  display: flex;
-  align-items: left;
+  @media only screen and (min-width: 1000px) {
+    display: flex;
+    align-items: left;
+  }
 
   .left {
     h1 {
