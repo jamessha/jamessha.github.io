@@ -97,6 +97,19 @@ img {
 
   .left {
     h1 {
+      color: #FF7A00;
+    }
+  }
+}
+
+.currently {
+  @media only screen and (min-width: 1000px) {
+    display: flex;
+    align-items: left;
+  }
+
+  .left {
+    h1 {
       color: #019518;
     }
   }
